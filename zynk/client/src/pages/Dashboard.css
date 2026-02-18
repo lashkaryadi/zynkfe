@@ -1,0 +1,13 @@
+.dashboard-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+
+.dashboard-charts {
+  margin-top: 24px;
+}
+
+.dashboard-charts .card {
+  overflow: hidden;
+}

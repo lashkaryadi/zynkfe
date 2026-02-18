@@ -1,0 +1,32 @@
+{
+  "name": "zynk-client",
+  "version": "1.0.0",
+  "private": true,
+  "proxy": "http://localhost:5001",
+  "dependencies": {
+    "@react-three/drei": "^9.88.0",
+    "@react-three/fiber": "^8.15.0",
+    "axios": "^1.6.2",
+    "date-fns": "^3.0.6",
+    "framer-motion": "^10.16.0",
+    "react": "^18.2.0",
+    "react-countup": "^6.5.0",
+    "react-datepicker": "^4.25.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.21.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.10.3",
+    "three": "^0.159.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "PORT=5173 react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}

@@ -1,0 +1,60 @@
+.platform-cards { margin-top: 24px; }
+
+.platform-card {
+  padding: 20px;
+}
+
+.pc-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.pc-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pc-followers {
+  margin-bottom: 16px;
+}
+
+.pc-followers-num {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  display: block;
+}
+
+.pc-followers-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pc-metrics {
+  display: flex;
+  gap: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-color);
+}
+
+.pc-metric {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.pc-metric span:first-of-type {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.pc-metric-label {
+  color: var(--text-muted) !important;
+  font-weight: 400 !important;
+}
